@@ -12,11 +12,13 @@ comes with a LSP for Vim users.
 
 ## Start the application
 
-Run `npx nx dev decision-2027` to start the development server. Happy coding!
+/* Run `npx nx dev ke-accountability` to start the development server. Happy coding! */
+
+/* Run `npx nx dev decision-2027` to start the development server. Happy coding! */
 
 ## Build for production
 
-Run `npx nx build decision-2027` to build the application. The build artifacts are stored in the output directory (e.g. `dist/` or `build/`), ready to be deployed.
+Run `npx nx build ke-accountability` to build the application. The build artifacts are stored in the output directory (e.g. `dist/` or `build/`), ready to be deployed.
 
 ## Running tasks
 

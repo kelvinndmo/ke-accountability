@@ -23,8 +23,8 @@
     "**/*.tsx",
     "**/*.js",
     "**/*.jsx",
-    "../../apps/decision-2027/.next/types/**/*.ts",
-    "../../dist/apps/decision-2027/.next/types/**/*.ts",
+    "../../apps/ke-accountability/.next/types/**/*.ts",
+    "../../dist/apps/ke-accountability/.next/types/**/*.ts",
     "next-env.d.ts"
   ],
   "exclude": ["node_modules", "jest.config.ts", "**/*.spec.ts", "**/*.test.ts"]
