@@ -1,0 +1,9 @@
+{
+  "name": "decision-2027",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/decision-2027",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project decision-2027 --web",
+  "targets": {}
+}
