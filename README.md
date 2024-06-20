@@ -12,7 +12,7 @@ comes with a LSP for Vim users.
 
 ## Start the application
 
-/* Run `npx nx dev ke-accountability` to start the development server. Happy coding! */
+Run `npx nx dev ke-accountability` to start the development server. Happy coding!
 
 ## Build for production
 
