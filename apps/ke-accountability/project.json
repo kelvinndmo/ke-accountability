@@ -1,9 +1,9 @@
 {
-  "name": "decision-2027",
+  "name": "ke-accountability",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/decision-2027",
+  "sourceRoot": "apps/ke-accountability",
   "projectType": "application",
   "tags": [],
-  "// targets": "to see all targets run: nx show project decision-2027 --web",
+  "// targets": "to see all targets run: nx show project ke-accountability --web",
   "targets": {}
 }
