@@ -25,7 +25,9 @@ export class MissingPersonEntity {
   @Column()
   age: number;
 
-  @Column()
+  @Column({
+    nullable: true,
+  })
   photoUrl: string;
 
   @Column({
