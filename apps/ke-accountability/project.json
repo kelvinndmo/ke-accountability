@@ -5,5 +5,25 @@
   "projectType": "application",
   "tags": [],
   "// targets": "to see all targets run: nx show project ke-accountability --web",
-  "targets": {}
+  "targets": {
+    "serve": {
+      "executor": "@nx/next:server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "ke-accountability:build",
+        "dev": true,
+        "port": 4600
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "ke-accountability:build:development",
+          "dev": true
+        },
+        "production": {
+          "buildTarget": "ke-accountability:build:production",
+          "dev": false
+        }
+      }
+    }
+  }
 }

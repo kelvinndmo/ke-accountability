@@ -2,7 +2,7 @@ import { Body, Controller, Get, Post } from '@nestjs/common';
 import { CreateMissingPersonDTO } from '../dtos/missing-person.dto';
 import { MissingPersonEntity } from '../entities/missing.entity';
 import { MissingPersonService } from '../services/missing-person.service';
-import { ApiOperation } from '@nestjs/swagger';
+import { ApiOperation, ApiResponse } from '@nestjs/swagger';
 
 @Controller('missing-person')
 export class MissingPersonController {
@@ -12,6 +12,10 @@ export class MissingPersonController {
     summary: 'Create a missing person',
     operationId: 'createMissingPerson',
     tags: ['missing-person'],
+  })
+  @ApiResponse({
+    status: 201,
+    description: 'The missing person has been successfully created.',
   })
   @Post('')
   createMissingPerson(@Body() body: CreateMissingPersonDTO) {
@@ -33,6 +37,12 @@ export class MissingPersonController {
     summary: 'Get all missing people',
     operationId: 'getMissingPeople',
     tags: ['missing-person'],
+  })
+  @ApiResponse({
+    status: 200,
+    description: 'The missing people have been successfully retrieved.',
+    type: MissingPersonEntity,
+    isArray: true,
   })
   @Get('')
   getMissingPeople() {
