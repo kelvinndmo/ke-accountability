@@ -12,7 +12,7 @@
       "rules": {
         "@next/next/no-html-link-for-pages": [
           "error",
-          "apps/decision-2027/pages"
+          "apps/ke-accountability/pages"
         ]
       }
     },

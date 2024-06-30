@@ -1,11 +1,11 @@
 {
-  "name": "@decision-2027/source",
+  "name": "@ke-accountability/source",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {},
   "private": true,
   "dependencies": {
-    "next": "14.0.4",
+    "next": "^14.2.4",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "tslib": "^2.3.0"
