@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ke-accountability/apisdk": ["libs/apisdk/src/index.ts"],
+      "@ke-accountability/ui-components": ["libs/ui-components/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

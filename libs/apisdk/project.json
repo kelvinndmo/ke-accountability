@@ -1,0 +1,19 @@
+{
+  "name": "apisdk",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/apisdk/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/apisdk",
+        "main": "libs/apisdk/src/index.ts",
+        "tsConfig": "libs/apisdk/tsconfig.lib.json",
+        "assets": ["libs/apisdk/*.md"]
+      }
+    }
+  }
+}
